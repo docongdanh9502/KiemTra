@@ -1,0 +1,75 @@
+﻿@model IEnumerable<KiemTra.Models.HocPhan>
+
+@{
+    ViewData["Title"] = "Đăng ký học phần";
+}
+
+<h1 class="mb-4">@ViewData["Title"]</h1>
+
+@if (TempData["ErrorMessage"] != null)
+{
+    <div class="alert alert-danger alert-dismissible fade show" role="alert">
+        <i class="fas fa-exclamation-triangle me-2"></i>@TempData["ErrorMessage"]
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+    </div>
+}
+
+<div class="card shadow mb-4">
+    <div class="card-header bg-primary text-white">
+        <h5 class="card-title mb-0">Danh sách học phần có thể đăng ký</h5>
+    </div>
+    <div class="card-body">
+        <div class="table-responsive">
+            <table class="table table-hover">
+                <thead class="table-light">
+                    <tr>
+                        <th>Mã học phần</th>
+                        <th>Tên học phần</th>
+                        <th>Số tín chỉ</th>
+                        <th>Số lượng dự kiến</th>
+                        <th>Số lượng đã đăng ký</th>
+                        <th>Slot còn lại</th>
+                        <th>Thao tác</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model)
+                    {
+                        <tr>
+                            <td>@item.MaHP</td>
+                            <td>@item.TenHP</td>
+                            <td>@item.SoTinChi</td>
+                            <td>@item.SoLuongDuKien</td>
+                            <td>@item.SoLuongDaDangKy</td>
+                            <td>@(item.SoLuongDuKien - item.SoLuongDaDangKy)</td>
+                            <td>
+                                @if (item.SoLuongDaDangKy < item.SoLuongDuKien)
+                                {
+                                    <form asp-action="DangKyHocPhan" method="post" style="display: inline;">
+                                        @Html.AntiForgeryToken()
+                                        <input type="hidden" name="maHP" value="@item.MaHP" />
+                                        <button type="submit" class="btn btn-primary btn-sm">
+                                            <i class="fas fa-plus-circle me-1"></i>Đăng ký
+                                        </button>
+                                    </form>
+                                }
+                                else
+                                {
+                                    <button class="btn btn-secondary btn-sm" disabled>
+                                        <i class="fas fa-ban me-1"></i>Hết slot
+                                    </button>
+                                }
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+
+<div class="d-flex justify-content-between">
+    <a asp-action="DanhSachDaDangKy" class="btn btn-info">
+        <i class="fas fa-list me-1"></i>Xem danh sách đã đăng ký
+    </a>
+</div>

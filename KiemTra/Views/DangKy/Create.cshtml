@@ -1,0 +1,43 @@
+﻿@model KiemTra.Models.DangKy
+
+@{
+    ViewData["Title"] = "Tạo mới đăng ký";
+}
+
+<h1 class="mb-4">@ViewData["Title"]</h1>
+
+<div class="row">
+    <div class="col-md-8">
+        <div class="card shadow">
+            <div class="card-body">
+                <form asp-action="Create">
+                    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                    <div class="form-group mb-3">
+                        <label asp-for="MaSV" class="control-label"></label>
+                        <input asp-for="MaSV" class="form-control" />
+                        <span asp-validation-for="MaSV" class="text-danger"></span>
+                    </div>
+                    <div class="form-group mb-3">
+                        <label asp-for="NgayDK" class="control-label"></label>
+                        <input asp-for="NgayDK" class="form-control" type="datetime-local" />
+                        <span asp-validation-for="NgayDK" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <button type="submit" class="btn btn-primary">
+                            <i class="fas fa-save me-1"></i>Lưu
+                        </button>
+                        <a asp-action="Index" class="btn btn-secondary">
+                            <i class="fas fa-arrow-left me-1"></i>Quay lại danh sách
+                        </a>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

@@ -1,0 +1,60 @@
+﻿@model KiemTra.Models.DangKy
+
+@{
+    ViewData["Title"] = "Xác nhận đăng ký";
+}
+
+<h1 class="mb-4">@ViewData["Title"]</h1>
+
+<div class="card shadow">
+    <div class="card-body">
+        <h4 class="card-title">Thông tin đăng ký</h4>
+        <dl class="row">
+            <dt class="col-sm-3">Mã đăng ký</dt>
+            <dd class="col-sm-9">@Model.MaDK</dd>
+
+            <dt class="col-sm-3">Mã sinh viên</dt>
+            <dd class="col-sm-9">@Model.MaSV</dd>
+
+            <dt class="col-sm-3">Ngày đăng ký</dt>
+            <dd class="col-sm-9">@Model.NgayDK.ToString("dd/MM/yyyy HH:mm")</dd>
+        </dl>
+
+        <h5 class="mt-4 mb-3">Danh sách học phần đã đăng ký</h5>
+        <div class="table-responsive">
+            <table class="table table-hover">
+                <thead class="table-light">
+                    <tr>
+                        <th>Mã HP</th>
+                        <th>Tên học phần</th>
+                        <th>Số tín chỉ</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var chiTiet in Model.ChiTietDangKys)
+                    {
+                        <tr>
+                            <td>@chiTiet.HocPhan.MaHP</td>
+                            <td>@chiTiet.HocPhan.TenHP</td>
+                            <td>@chiTiet.HocPhan.SoTinChi</td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <div class="card-footer">
+        <form asp-action="XacNhanDangKy" method="post">
+            @Html.AntiForgeryToken()
+            <input type="hidden" asp-for="MaDK" />
+            <button type="submit" class="btn btn-success">
+                <i class="fas fa-check-circle me-1"></i>Xác nhận đăng ký
+            </button>
+            <a asp-action="Index" class="btn btn-secondary">
+                <i class="fas fa-arrow-left me-1"></i>Quay lại danh sách
+            </a>
+        </form>
+    </div>
+</div>
+
+

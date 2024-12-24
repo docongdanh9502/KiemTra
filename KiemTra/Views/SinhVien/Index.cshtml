@@ -1,0 +1,73 @@
+﻿@model IEnumerable<KiemTra.Models.SinhVien>
+
+@{
+    ViewData["Title"] = "Danh sách sinh viên";
+}
+
+<h1 class="mb-4">@ViewData["Title"]</h1>
+
+<p>
+    <a asp-action="Create" class="btn btn-primary">
+        <i class="fas fa-user-plus me-1"></i>Thêm mới sinh viên
+    </a>
+</p>
+
+<div class="card shadow">
+    <div class="card-body">
+        <div class="table-responsive">
+            <table class="table table-hover">
+                <thead class="table-light">
+                    <tr>
+                        <th>Mã SV</th>
+                        <th>Họ Tên</th>
+                        <th>Giới Tính</th>
+                        <th>Ngày Sinh</th>
+                        <th>Hình Ảnh</th>
+                        <th>Mã Ngành</th>
+                        <th>Thao tác</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model)
+                    {
+                        <tr>
+                            <td>@Html.DisplayFor(modelItem => item.MaSV)</td>
+                            <td>@Html.DisplayFor(modelItem => item.HoTen)</td>
+                            <td>@(item.GioiTinh ? "Nam" : "Nữ")</td>
+                            <td>@item.NgaySinh.ToString("dd/MM/yyyy")</td>
+                            <td>
+                                @if (!string.IsNullOrEmpty(item.Hinh))
+                                {
+                                    <img src="~/images/@item.Hinh" alt="@item.HoTen"
+                                         class="img-thumbnail"
+                                         style="width: 100px; height: 100px; object-fit: cover;" />
+                                }
+                                else
+                                {
+                                    <i class="fas fa-user fa-3x text-secondary"></i>
+                                }
+                            </td>
+                            <td>@Html.DisplayFor(modelItem => item.MaNganh)</td>
+                            <td>
+                                <div class="btn-group" role="group">
+                                    <a asp-action="Edit" asp-route-id="@item.MaSV"
+                                       class="btn btn-warning btn-sm">
+                                        Sửa
+                                    </a>
+                                    <a asp-action="Details" asp-route-id="@item.MaSV"
+                                       class="btn btn-info btn-sm">
+                                        Chi tiết
+                                    </a>
+                                    <a asp-action="Delete" asp-route-id="@item.MaSV"
+                                       class="btn btn-danger btn-sm">
+                                        Xóa
+                                    </a>
+                                </div>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>

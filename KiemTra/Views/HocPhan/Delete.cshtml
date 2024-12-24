@@ -1,0 +1,48 @@
+﻿@model KiemTra.Models.HocPhan
+
+@{
+    ViewData["Title"] = "Xóa học phần";
+}
+
+<div class="container mt-4">
+    <div class="row mb-4">
+        <div class="col">
+            <h1 class="display-4 text-danger">@ViewData["Title"]</h1>
+            <p class="lead">Bạn có chắc chắn muốn xóa học phần này?</p>
+        </div>
+    </div>
+
+    <div class="card shadow-sm border-0 rounded-lg">
+        <div class="card-body">
+            <dl class="row">
+                <dt class="col-sm-3">Mã học phần</dt>
+                <dd class="col-sm-9">@Model.MaHP</dd>
+
+                <dt class="col-sm-3">Tên học phần</dt>
+                <dd class="col-sm-9">@Model.TenHP</dd>
+
+                <dt class="col-sm-3">Số tín chỉ</dt>
+                <dd class="col-sm-9">@Model.SoTinChi</dd>
+
+                <dt class="col-sm-3">Sĩ số tối đa</dt>
+                <dd class="col-sm-9">@Model.SoLuongDuKien</dd>
+
+                <dt class="col-sm-3">Đã đăng ký</dt>
+                <dd class="col-sm-9">@Model.SoLuongDaDangKy</dd>
+            </dl>
+        </div>
+    </div>
+
+    <div class="mt-4">
+        <form asp-action="Delete" method="post">
+            <input type="hidden" asp-for="MaHP" />
+            <button type="submit" class="btn btn-danger me-2" onclick="return confirm('Bạn có chắc chắn muốn xóa học phần này?')">
+                <i class="bi bi-trash-fill me-2"></i>Xác nhận xóa
+            </button>
+            <a asp-action="Index" class="btn btn-secondary">
+                <i class="bi bi-arrow-left me-2"></i>Quay lại danh sách
+            </a>
+        </form>
+    </div>
+</div>
+

@@ -1,0 +1,682 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\docon\\source\\repos\\KiemTra\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3673D874-1AF1-4790-ADCB-DB65094ABE6E}|KiemTra\\KiemTra.csproj|c:\\users\\docon\\source\\repos\\kiemtra\\kiemtra\\views\\sinhvien\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3673D874-1AF1-4790-ADCB-DB65094ABE6E}|KiemTra\\KiemTra.csproj|solutionrelative:kiemtra\\views\\sinhvien\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3673D874-1AF1-4790-ADCB-DB65094ABE6E}|KiemTra\\KiemTra.csproj|c:\\users\\docon\\source\\repos\\kiemtra\\kiemtra\\views\\sinhvien\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3673D874-1AF1-4790-ADCB-DB65094ABE6E}|KiemTra\\KiemTra.csproj|solutionrelative:kiemtra\\views\\sinhvien\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3673D874-1AF1-4790-ADCB-DB65094ABE6E}|KiemTra\\KiemTra.csproj|c:\\users\\docon\\source\\repos\\kiemtra\\kiemtra\\views\\sinhvien\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3673D874-1AF1-4790-ADCB-DB65094ABE6E}|KiemTra\\KiemTra.csproj|solutionrelative:kiemtra\\views\\sinhvien\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3673D874-1AF1-4790-ADCB-DB65094ABE6E}|KiemTra\\KiemTra.csproj|c:\\users\\docon\\source\\repos\\kiemtra\\kiemtra\\views\\sinhvien\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3673D874-1AF1-4790-ADCB-DB65094ABE6E}|KiemTra\\KiemTra.csproj|solutionrelative:kiemtra\\views\\sinhvien\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3673D874-1AF1-4790-ADCB-DB65094ABE6E}|KiemTra\\KiemTra.csproj|c:\\users\\docon\\source\\repos\\kiemtra\\kiemtra\\views\\sinhvien\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3673D874-1AF1-4790-ADCB-DB65094ABE6E}|KiemTra\\KiemTra.csproj|solutionrelative:kiemtra\\views\\sinhvien\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3673D874-1AF1-4790-ADCB-DB65094ABE6E}|KiemTra\\KiemTra.csproj|c:\\users\\docon\\source\\repos\\kiemtra\\kiemtra\\controllers\\sinhviencontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3673D874-1AF1-4790-ADCB-DB65094ABE6E}|KiemTra\\KiemTra.csproj|solutionrelative:kiemtra\\controllers\\sinhviencontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3673D874-1AF1-4790-ADCB-DB65094ABE6E}|KiemTra\\KiemTra.csproj|c:\\users\\docon\\source\\repos\\kiemtra\\kiemtra\\views\\dangky\\thongtindaluu.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3673D874-1AF1-4790-ADCB-DB65094ABE6E}|KiemTra\\KiemTra.csproj|solutionrelative:kiemtra\\views\\dangky\\thongtindaluu.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3673D874-1AF1-4790-ADCB-DB65094ABE6E}|KiemTra\\KiemTra.csproj|c:\\users\\docon\\source\\repos\\kiemtra\\kiemtra\\views\\dangky\\thongtindangky.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3673D874-1AF1-4790-ADCB-DB65094ABE6E}|KiemTra\\KiemTra.csproj|solutionrelative:kiemtra\\views\\dangky\\thongtindangky.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3673D874-1AF1-4790-ADCB-DB65094ABE6E}|KiemTra\\KiemTra.csproj|c:\\users\\docon\\source\\repos\\kiemtra\\kiemtra\\views\\dangky\\danhsachdadangky.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3673D874-1AF1-4790-ADCB-DB65094ABE6E}|KiemTra\\KiemTra.csproj|solutionrelative:kiemtra\\views\\dangky\\danhsachdadangky.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3673D874-1AF1-4790-ADCB-DB65094ABE6E}|KiemTra\\KiemTra.csproj|c:\\users\\docon\\source\\repos\\kiemtra\\kiemtra\\views\\dangky\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3673D874-1AF1-4790-ADCB-DB65094ABE6E}|KiemTra\\KiemTra.csproj|solutionrelative:kiemtra\\views\\dangky\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3673D874-1AF1-4790-ADCB-DB65094ABE6E}|KiemTra\\KiemTra.csproj|c:\\users\\docon\\source\\repos\\kiemtra\\kiemtra\\views\\dangky\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3673D874-1AF1-4790-ADCB-DB65094ABE6E}|KiemTra\\KiemTra.csproj|solutionrelative:kiemtra\\views\\dangky\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3673D874-1AF1-4790-ADCB-DB65094ABE6E}|KiemTra\\KiemTra.csproj|c:\\users\\docon\\source\\repos\\kiemtra\\kiemtra\\controllers\\dangkycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3673D874-1AF1-4790-ADCB-DB65094ABE6E}|KiemTra\\KiemTra.csproj|solutionrelative:kiemtra\\controllers\\dangkycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3673D874-1AF1-4790-ADCB-DB65094ABE6E}|KiemTra\\KiemTra.csproj|c:\\users\\docon\\source\\repos\\kiemtra\\kiemtra\\views\\hocphan\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3673D874-1AF1-4790-ADCB-DB65094ABE6E}|KiemTra\\KiemTra.csproj|solutionrelative:kiemtra\\views\\hocphan\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3673D874-1AF1-4790-ADCB-DB65094ABE6E}|KiemTra\\KiemTra.csproj|c:\\users\\docon\\source\\repos\\kiemtra\\kiemtra\\views\\hocphan\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3673D874-1AF1-4790-ADCB-DB65094ABE6E}|KiemTra\\KiemTra.csproj|solutionrelative:kiemtra\\views\\hocphan\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3673D874-1AF1-4790-ADCB-DB65094ABE6E}|KiemTra\\KiemTra.csproj|c:\\users\\docon\\source\\repos\\kiemtra\\kiemtra\\views\\hocphan\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3673D874-1AF1-4790-ADCB-DB65094ABE6E}|KiemTra\\KiemTra.csproj|solutionrelative:kiemtra\\views\\hocphan\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3673D874-1AF1-4790-ADCB-DB65094ABE6E}|KiemTra\\KiemTra.csproj|c:\\users\\docon\\source\\repos\\kiemtra\\kiemtra\\views\\hocphan\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3673D874-1AF1-4790-ADCB-DB65094ABE6E}|KiemTra\\KiemTra.csproj|solutionrelative:kiemtra\\views\\hocphan\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3673D874-1AF1-4790-ADCB-DB65094ABE6E}|KiemTra\\KiemTra.csproj|c:\\users\\docon\\source\\repos\\kiemtra\\kiemtra\\views\\hocphan\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3673D874-1AF1-4790-ADCB-DB65094ABE6E}|KiemTra\\KiemTra.csproj|solutionrelative:kiemtra\\views\\hocphan\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3673D874-1AF1-4790-ADCB-DB65094ABE6E}|KiemTra\\KiemTra.csproj|c:\\users\\docon\\source\\repos\\kiemtra\\kiemtra\\views\\dangky\\xacnhandangky.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3673D874-1AF1-4790-ADCB-DB65094ABE6E}|KiemTra\\KiemTra.csproj|solutionrelative:kiemtra\\views\\dangky\\xacnhandangky.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3673D874-1AF1-4790-ADCB-DB65094ABE6E}|KiemTra\\KiemTra.csproj|c:\\users\\docon\\source\\repos\\kiemtra\\kiemtra\\views\\dangky\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3673D874-1AF1-4790-ADCB-DB65094ABE6E}|KiemTra\\KiemTra.csproj|solutionrelative:kiemtra\\views\\dangky\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3673D874-1AF1-4790-ADCB-DB65094ABE6E}|KiemTra\\KiemTra.csproj|c:\\users\\docon\\source\\repos\\kiemtra\\kiemtra\\views\\dangky\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3673D874-1AF1-4790-ADCB-DB65094ABE6E}|KiemTra\\KiemTra.csproj|solutionrelative:kiemtra\\views\\dangky\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3673D874-1AF1-4790-ADCB-DB65094ABE6E}|KiemTra\\KiemTra.csproj|c:\\users\\docon\\source\\repos\\kiemtra\\kiemtra\\views\\dangky\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3673D874-1AF1-4790-ADCB-DB65094ABE6E}|KiemTra\\KiemTra.csproj|solutionrelative:kiemtra\\views\\dangky\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3673D874-1AF1-4790-ADCB-DB65094ABE6E}|KiemTra\\KiemTra.csproj|c:\\users\\docon\\source\\repos\\kiemtra\\kiemtra\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3673D874-1AF1-4790-ADCB-DB65094ABE6E}|KiemTra\\KiemTra.csproj|solutionrelative:kiemtra\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3673D874-1AF1-4790-ADCB-DB65094ABE6E}|KiemTra\\KiemTra.csproj|c:\\users\\docon\\source\\repos\\kiemtra\\kiemtra\\models\\sinhvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3673D874-1AF1-4790-ADCB-DB65094ABE6E}|KiemTra\\KiemTra.csproj|solutionrelative:kiemtra\\models\\sinhvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3673D874-1AF1-4790-ADCB-DB65094ABE6E}|KiemTra\\KiemTra.csproj|c:\\users\\docon\\source\\repos\\kiemtra\\kiemtra\\models\\nganhhoc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3673D874-1AF1-4790-ADCB-DB65094ABE6E}|KiemTra\\KiemTra.csproj|solutionrelative:kiemtra\\models\\nganhhoc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3673D874-1AF1-4790-ADCB-DB65094ABE6E}|KiemTra\\KiemTra.csproj|c:\\users\\docon\\source\\repos\\kiemtra\\kiemtra\\models\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3673D874-1AF1-4790-ADCB-DB65094ABE6E}|KiemTra\\KiemTra.csproj|solutionrelative:kiemtra\\models\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3673D874-1AF1-4790-ADCB-DB65094ABE6E}|KiemTra\\KiemTra.csproj|c:\\users\\docon\\source\\repos\\kiemtra\\kiemtra\\models\\hocphan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3673D874-1AF1-4790-ADCB-DB65094ABE6E}|KiemTra\\KiemTra.csproj|solutionrelative:kiemtra\\models\\hocphan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3673D874-1AF1-4790-ADCB-DB65094ABE6E}|KiemTra\\KiemTra.csproj|c:\\users\\docon\\source\\repos\\kiemtra\\kiemtra\\models\\dangky.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3673D874-1AF1-4790-ADCB-DB65094ABE6E}|KiemTra\\KiemTra.csproj|solutionrelative:kiemtra\\models\\dangky.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3673D874-1AF1-4790-ADCB-DB65094ABE6E}|KiemTra\\KiemTra.csproj|c:\\users\\docon\\source\\repos\\kiemtra\\kiemtra\\models\\chitietdangky.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3673D874-1AF1-4790-ADCB-DB65094ABE6E}|KiemTra\\KiemTra.csproj|solutionrelative:kiemtra\\models\\chitietdangky.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3673D874-1AF1-4790-ADCB-DB65094ABE6E}|KiemTra\\KiemTra.csproj|c:\\users\\docon\\source\\repos\\kiemtra\\kiemtra\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3673D874-1AF1-4790-ADCB-DB65094ABE6E}|KiemTra\\KiemTra.csproj|solutionrelative:kiemtra\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3673D874-1AF1-4790-ADCB-DB65094ABE6E}|KiemTra\\KiemTra.csproj|c:\\users\\docon\\source\\repos\\kiemtra\\kiemtra\\controllers\\hocphancontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3673D874-1AF1-4790-ADCB-DB65094ABE6E}|KiemTra\\KiemTra.csproj|solutionrelative:kiemtra\\controllers\\hocphancontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3673D874-1AF1-4790-ADCB-DB65094ABE6E}|KiemTra\\KiemTra.csproj|c:\\users\\docon\\source\\repos\\kiemtra\\kiemtra\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3673D874-1AF1-4790-ADCB-DB65094ABE6E}|KiemTra\\KiemTra.csproj|solutionrelative:kiemtra\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3673D874-1AF1-4790-ADCB-DB65094ABE6E}|KiemTra\\KiemTra.csproj|c:\\users\\docon\\source\\repos\\kiemtra\\kiemtra\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3673D874-1AF1-4790-ADCB-DB65094ABE6E}|KiemTra\\KiemTra.csproj|solutionrelative:kiemtra\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3673D874-1AF1-4790-ADCB-DB65094ABE6E}|KiemTra\\KiemTra.csproj|c:\\users\\docon\\source\\repos\\kiemtra\\kiemtra\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3673D874-1AF1-4790-ADCB-DB65094ABE6E}|KiemTra\\KiemTra.csproj|solutionrelative:kiemtra\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3673D874-1AF1-4790-ADCB-DB65094ABE6E}|KiemTra\\KiemTra.csproj|c:\\users\\docon\\source\\repos\\kiemtra\\kiemtra\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3673D874-1AF1-4790-ADCB-DB65094ABE6E}|KiemTra\\KiemTra.csproj|solutionrelative:kiemtra\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3673D874-1AF1-4790-ADCB-DB65094ABE6E}|KiemTra\\KiemTra.csproj|c:\\users\\docon\\source\\repos\\kiemtra\\kiemtra\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3673D874-1AF1-4790-ADCB-DB65094ABE6E}|KiemTra\\KiemTra.csproj|solutionrelative:kiemtra\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3673D874-1AF1-4790-ADCB-DB65094ABE6E}|KiemTra\\KiemTra.csproj|c:\\users\\docon\\source\\repos\\kiemtra\\kiemtra\\kiemtra.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{3673D874-1AF1-4790-ADCB-DB65094ABE6E}|KiemTra\\KiemTra.csproj|solutionrelative:kiemtra\\kiemtra.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3673D874-1AF1-4790-ADCB-DB65094ABE6E}|KiemTra\\KiemTra.csproj|c:\\users\\docon\\source\\repos\\kiemtra\\kiemtra\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{3673D874-1AF1-4790-ADCB-DB65094ABE6E}|KiemTra\\KiemTra.csproj|solutionrelative:kiemtra\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3673D874-1AF1-4790-ADCB-DB65094ABE6E}|KiemTra\\KiemTra.csproj|c:\\users\\docon\\source\\repos\\kiemtra\\kiemtra\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3673D874-1AF1-4790-ADCB-DB65094ABE6E}|KiemTra\\KiemTra.csproj|solutionrelative:kiemtra\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3673D874-1AF1-4790-ADCB-DB65094ABE6E}|KiemTra\\KiemTra.csproj|c:\\users\\docon\\source\\repos\\kiemtra\\kiemtra\\kiemtra.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{3673D874-1AF1-4790-ADCB-DB65094ABE6E}|KiemTra\\KiemTra.csproj|solutionrelative:kiemtra\\kiemtra.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 19,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ThongTinDaLuu.cshtml",
+              "DocumentMoniker": "C:\\Users\\docon\\source\\repos\\KiemTra\\KiemTra\\Views\\DangKy\\ThongTinDaLuu.cshtml",
+              "RelativeDocumentMoniker": "KiemTra\\Views\\DangKy\\ThongTinDaLuu.cshtml",
+              "ToolTip": "C:\\Users\\docon\\source\\repos\\KiemTra\\KiemTra\\Views\\DangKy\\ThongTinDaLuu.cshtml",
+              "RelativeToolTip": "KiemTra\\Views\\DangKy\\ThongTinDaLuu.cshtml",
+              "ViewState": "AgIAADMAAAAAAAAAAAAkwEQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-24T02:33:26.31Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "_ValidationScriptsPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\docon\\source\\repos\\KiemTra\\KiemTra\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeDocumentMoniker": "KiemTra\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ToolTip": "C:\\Users\\docon\\source\\repos\\KiemTra\\KiemTra\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeToolTip": "KiemTra\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-23T09:56:15.189Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\docon\\source\\repos\\KiemTra\\KiemTra\\Views\\SinhVien\\Delete.cshtml",
+              "RelativeDocumentMoniker": "KiemTra\\Views\\SinhVien\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\docon\\source\\repos\\KiemTra\\KiemTra\\Views\\SinhVien\\Delete.cshtml",
+              "RelativeToolTip": "KiemTra\\Views\\SinhVien\\Delete.cshtml",
+              "ViewState": "AgIAADAAAAAAAAAAAAAQwEIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-23T07:50:37.632Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\docon\\source\\repos\\KiemTra\\KiemTra\\Views\\HocPhan\\Edit.cshtml",
+              "RelativeDocumentMoniker": "KiemTra\\Views\\HocPhan\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\docon\\source\\repos\\KiemTra\\KiemTra\\Views\\HocPhan\\Edit.cshtml",
+              "RelativeToolTip": "KiemTra\\Views\\HocPhan\\Edit.cshtml",
+              "ViewState": "AgIAACAAAAAAAAAAAAAQwDIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-23T07:45:57.365Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\docon\\source\\repos\\KiemTra\\KiemTra\\Views\\HocPhan\\Details.cshtml",
+              "RelativeDocumentMoniker": "KiemTra\\Views\\HocPhan\\Details.cshtml",
+              "ToolTip": "C:\\Users\\docon\\source\\repos\\KiemTra\\KiemTra\\Views\\HocPhan\\Details.cshtml",
+              "RelativeToolTip": "KiemTra\\Views\\HocPhan\\Details.cshtml",
+              "ViewState": "AgIAABsAAAAAAAAAAAAQwC0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-23T07:40:52.706Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\docon\\source\\repos\\KiemTra\\KiemTra\\Views\\HocPhan\\Delete.cshtml",
+              "RelativeDocumentMoniker": "KiemTra\\Views\\HocPhan\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\docon\\source\\repos\\KiemTra\\KiemTra\\Views\\HocPhan\\Delete.cshtml",
+              "RelativeToolTip": "KiemTra\\Views\\HocPhan\\Delete.cshtml",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAQwDAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-23T07:40:40.211Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "XacNhanDangKy.cshtml",
+              "DocumentMoniker": "C:\\Users\\docon\\source\\repos\\KiemTra\\KiemTra\\Views\\DangKy\\XacNhanDangKy.cshtml",
+              "RelativeDocumentMoniker": "KiemTra\\Views\\DangKy\\XacNhanDangKy.cshtml",
+              "ToolTip": "C:\\Users\\docon\\source\\repos\\KiemTra\\KiemTra\\Views\\DangKy\\XacNhanDangKy.cshtml",
+              "RelativeToolTip": "KiemTra\\Views\\DangKy\\XacNhanDangKy.cshtml",
+              "ViewState": "AgIAACoAAAAAAAAAAAAQwDwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-23T07:37:02.642Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ThongTinDangKy.cshtml",
+              "DocumentMoniker": "C:\\Users\\docon\\source\\repos\\KiemTra\\KiemTra\\Views\\DangKy\\ThongTinDangKy.cshtml",
+              "RelativeDocumentMoniker": "KiemTra\\Views\\DangKy\\ThongTinDangKy.cshtml",
+              "ToolTip": "C:\\Users\\docon\\source\\repos\\KiemTra\\KiemTra\\Views\\DangKy\\ThongTinDangKy.cshtml",
+              "RelativeToolTip": "KiemTra\\Views\\DangKy\\ThongTinDangKy.cshtml",
+              "ViewState": "AgIAADMAAAAAAAAAAAAQwEUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-23T07:36:43.557Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "DangKyController.cs",
+              "DocumentMoniker": "C:\\Users\\docon\\source\\repos\\KiemTra\\KiemTra\\Controllers\\DangKyController.cs",
+              "RelativeDocumentMoniker": "KiemTra\\Controllers\\DangKyController.cs",
+              "ToolTip": "C:\\Users\\docon\\source\\repos\\KiemTra\\KiemTra\\Controllers\\DangKyController.cs",
+              "RelativeToolTip": "KiemTra\\Controllers\\DangKyController.cs",
+              "ViewState": "AgIAAM8AAAAAAAAAAAAzwOEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-23T07:25:36.629Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "KiemTra",
+              "DocumentMoniker": "C:\\Users\\docon\\source\\repos\\KiemTra\\KiemTra\\KiemTra.csproj",
+              "RelativeDocumentMoniker": "KiemTra\\KiemTra.csproj",
+              "ToolTip": "C:\\Users\\docon\\source\\repos\\KiemTra\\KiemTra\\KiemTra.csproj",
+              "RelativeToolTip": "KiemTra\\KiemTra.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-12-22T12:48:23.508Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "KiemTra.csproj",
+              "DocumentMoniker": "C:\\Users\\docon\\source\\repos\\KiemTra\\KiemTra\\KiemTra.csproj",
+              "RelativeDocumentMoniker": "KiemTra\\KiemTra.csproj",
+              "ToolTip": "C:\\Users\\docon\\source\\repos\\KiemTra\\KiemTra\\KiemTra.csproj",
+              "RelativeToolTip": "KiemTra\\KiemTra.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-12-22T06:36:01.567Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\docon\\source\\repos\\KiemTra\\KiemTra\\Views\\SinhVien\\Details.cshtml",
+              "RelativeDocumentMoniker": "KiemTra\\Views\\SinhVien\\Details.cshtml",
+              "ToolTip": "C:\\Users\\docon\\source\\repos\\KiemTra\\KiemTra\\Views\\SinhVien\\Details.cshtml",
+              "RelativeToolTip": "KiemTra\\Views\\SinhVien\\Details.cshtml",
+              "ViewState": "AgIAACgAAAAAAAAAAAAQwDoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-21T14:12:30.842Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\docon\\source\\repos\\KiemTra\\KiemTra\\Views\\DangKy\\Edit.cshtml",
+              "RelativeDocumentMoniker": "KiemTra\\Views\\DangKy\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\docon\\source\\repos\\KiemTra\\KiemTra\\Views\\DangKy\\Edit.cshtml",
+              "RelativeToolTip": "KiemTra\\Views\\DangKy\\Edit.cshtml",
+              "ViewState": "AgIAABoAAAAAAAAAAAAQwCwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-21T14:09:26.285Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\docon\\source\\repos\\KiemTra\\KiemTra\\Views\\DangKy\\Details.cshtml",
+              "RelativeDocumentMoniker": "KiemTra\\Views\\DangKy\\Details.cshtml",
+              "ToolTip": "C:\\Users\\docon\\source\\repos\\KiemTra\\KiemTra\\Views\\DangKy\\Details.cshtml",
+              "RelativeToolTip": "KiemTra\\Views\\DangKy\\Details.cshtml",
+              "ViewState": "AgIAACMAAAAAAAAAAAAQwDUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-21T14:09:20.327Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\docon\\source\\repos\\KiemTra\\KiemTra\\Views\\DangKy\\Delete.cshtml",
+              "RelativeDocumentMoniker": "KiemTra\\Views\\DangKy\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\docon\\source\\repos\\KiemTra\\KiemTra\\Views\\DangKy\\Delete.cshtml",
+              "RelativeToolTip": "KiemTra\\Views\\DangKy\\Delete.cshtml",
+              "ViewState": "AgIAABcAAAAAAAAAAAAQwCkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-21T14:09:08.803Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\docon\\source\\repos\\KiemTra\\KiemTra\\Views\\DangKy\\Create.cshtml",
+              "RelativeDocumentMoniker": "KiemTra\\Views\\DangKy\\Create.cshtml",
+              "ToolTip": "C:\\Users\\docon\\source\\repos\\KiemTra\\KiemTra\\Views\\DangKy\\Create.cshtml",
+              "RelativeToolTip": "KiemTra\\Views\\DangKy\\Create.cshtml",
+              "ViewState": "AgIAABkAAAAAAAAAAAAQwCsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-21T14:08:50.074Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\docon\\source\\repos\\KiemTra\\KiemTra\\Views\\SinhVien\\Edit.cshtml",
+              "RelativeDocumentMoniker": "KiemTra\\Views\\SinhVien\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\docon\\source\\repos\\KiemTra\\KiemTra\\Views\\SinhVien\\Edit.cshtml",
+              "RelativeToolTip": "KiemTra\\Views\\SinhVien\\Edit.cshtml",
+              "ViewState": "AgIAAEoAAAAAAAAAAAAQwF4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-21T13:40:59.09Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\docon\\source\\repos\\KiemTra\\KiemTra\\Views\\HocPhan\\Create.cshtml",
+              "RelativeDocumentMoniker": "KiemTra\\Views\\HocPhan\\Create.cshtml",
+              "ToolTip": "C:\\Users\\docon\\source\\repos\\KiemTra\\KiemTra\\Views\\HocPhan\\Create.cshtml",
+              "RelativeToolTip": "KiemTra\\Views\\HocPhan\\Create.cshtml",
+              "ViewState": "AgIAACcAAAAAAAAAAAAQwDkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-21T13:40:44.928Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\docon\\source\\repos\\KiemTra\\KiemTra\\Views\\SinhVien\\Create.cshtml",
+              "RelativeDocumentMoniker": "KiemTra\\Views\\SinhVien\\Create.cshtml",
+              "ToolTip": "C:\\Users\\docon\\source\\repos\\KiemTra\\KiemTra\\Views\\SinhVien\\Create.cshtml",
+              "RelativeToolTip": "KiemTra\\Views\\SinhVien\\Create.cshtml",
+              "ViewState": "AgIAAEMAAAAAAAAAAAAQwFcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-21T13:40:39.328Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\docon\\source\\repos\\KiemTra\\KiemTra\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "KiemTra\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\docon\\source\\repos\\KiemTra\\KiemTra\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "KiemTra\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAFAAAAAAAAAAAAAYwGIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-20T16:18:42.809Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\docon\\source\\repos\\KiemTra\\KiemTra\\Views\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "KiemTra\\Views\\Account\\Login.cshtml",
+              "ToolTip": "C:\\Users\\docon\\source\\repos\\KiemTra\\KiemTra\\Views\\Account\\Login.cshtml",
+              "RelativeToolTip": "KiemTra\\Views\\Account\\Login.cshtml",
+              "ViewState": "AgIAABsAAAAAAAAAAAAQwC0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-20T16:18:11.769Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "LoginViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\docon\\source\\repos\\KiemTra\\KiemTra\\Models\\LoginViewModel.cs",
+              "RelativeDocumentMoniker": "KiemTra\\Models\\LoginViewModel.cs",
+              "ToolTip": "C:\\Users\\docon\\source\\repos\\KiemTra\\KiemTra\\Models\\LoginViewModel.cs",
+              "RelativeToolTip": "KiemTra\\Models\\LoginViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-20T16:17:22.919Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\docon\\source\\repos\\KiemTra\\KiemTra\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "KiemTra\\Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\docon\\source\\repos\\KiemTra\\KiemTra\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "KiemTra\\Controllers\\AccountController.cs",
+              "ViewState": "AgIAADcAAAAAAAAAAAAAwEgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-20T16:16:43.995Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "DanhSachDaDangKy.cshtml",
+              "DocumentMoniker": "C:\\Users\\docon\\source\\repos\\KiemTra\\KiemTra\\Views\\DangKy\\DanhSachDaDangKy.cshtml",
+              "RelativeDocumentMoniker": "KiemTra\\Views\\DangKy\\DanhSachDaDangKy.cshtml",
+              "ToolTip": "C:\\Users\\docon\\source\\repos\\KiemTra\\KiemTra\\Views\\DangKy\\DanhSachDaDangKy.cshtml",
+              "RelativeToolTip": "KiemTra\\Views\\DangKy\\DanhSachDaDangKy.cshtml",
+              "ViewState": "AgIAAFMAAAAAAAAAAAAQwGUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-20T16:16:08.364Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\docon\\source\\repos\\KiemTra\\KiemTra\\Views\\DangKy\\Index.cshtml",
+              "RelativeDocumentMoniker": "KiemTra\\Views\\DangKy\\Index.cshtml",
+              "ToolTip": "C:\\Users\\docon\\source\\repos\\KiemTra\\KiemTra\\Views\\DangKy\\Index.cshtml",
+              "RelativeToolTip": "KiemTra\\Views\\DangKy\\Index.cshtml",
+              "ViewState": "AgIAADkAAAAAAAAAAAAQwEsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-20T16:13:35.533Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\docon\\source\\repos\\KiemTra\\KiemTra\\Views\\HocPhan\\Index.cshtml",
+              "RelativeDocumentMoniker": "KiemTra\\Views\\HocPhan\\Index.cshtml",
+              "ToolTip": "C:\\Users\\docon\\source\\repos\\KiemTra\\KiemTra\\Views\\HocPhan\\Index.cshtml",
+              "RelativeToolTip": "KiemTra\\Views\\HocPhan\\Index.cshtml",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAQwCcAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-20T16:12:10.886Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\docon\\source\\repos\\KiemTra\\KiemTra\\Views\\SinhVien\\Index.cshtml",
+              "RelativeDocumentMoniker": "KiemTra\\Views\\SinhVien\\Index.cshtml",
+              "ToolTip": "C:\\Users\\docon\\source\\repos\\KiemTra\\KiemTra\\Views\\SinhVien\\Index.cshtml",
+              "RelativeToolTip": "KiemTra\\Views\\SinhVien\\Index.cshtml",
+              "ViewState": "AgIAADcAAAAAAAAAAAAQwEkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-20T16:11:52.317Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "HocPhanController.cs",
+              "DocumentMoniker": "C:\\Users\\docon\\source\\repos\\KiemTra\\KiemTra\\Controllers\\HocPhanController.cs",
+              "RelativeDocumentMoniker": "KiemTra\\Controllers\\HocPhanController.cs",
+              "ToolTip": "C:\\Users\\docon\\source\\repos\\KiemTra\\KiemTra\\Controllers\\HocPhanController.cs",
+              "RelativeToolTip": "KiemTra\\Controllers\\HocPhanController.cs",
+              "ViewState": "AgIAAIMAAAAAAAAAAAAAwJQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-20T16:11:04.488Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\docon\\source\\repos\\KiemTra\\KiemTra\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "KiemTra\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\docon\\source\\repos\\KiemTra\\KiemTra\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "KiemTra\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-20T16:09:03.436Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "SinhVienController.cs",
+              "DocumentMoniker": "C:\\Users\\docon\\source\\repos\\KiemTra\\KiemTra\\Controllers\\SinhVienController.cs",
+              "RelativeDocumentMoniker": "KiemTra\\Controllers\\SinhVienController.cs",
+              "ToolTip": "C:\\Users\\docon\\source\\repos\\KiemTra\\KiemTra\\Controllers\\SinhVienController.cs",
+              "RelativeToolTip": "KiemTra\\Controllers\\SinhVienController.cs",
+              "ViewState": "AgIAALwAAAAAAAAAAAAQwM4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-20T16:05:39.984Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\docon\\source\\repos\\KiemTra\\KiemTra\\Program.cs",
+              "RelativeDocumentMoniker": "KiemTra\\Program.cs",
+              "ToolTip": "C:\\Users\\docon\\source\\repos\\KiemTra\\KiemTra\\Program.cs",
+              "RelativeToolTip": "KiemTra\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-20T15:37:11.921Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\docon\\source\\repos\\KiemTra\\KiemTra\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "KiemTra\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\docon\\source\\repos\\KiemTra\\KiemTra\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "KiemTra\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAQwCcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-20T15:36:50.81Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "ChiTietDangKy.cs",
+              "DocumentMoniker": "C:\\Users\\docon\\source\\repos\\KiemTra\\KiemTra\\Models\\ChiTietDangKy.cs",
+              "RelativeDocumentMoniker": "KiemTra\\Models\\ChiTietDangKy.cs",
+              "ToolTip": "C:\\Users\\docon\\source\\repos\\KiemTra\\KiemTra\\Models\\ChiTietDangKy.cs",
+              "RelativeToolTip": "KiemTra\\Models\\ChiTietDangKy.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAqwBcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-20T15:35:18.913Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "DangKy.cs",
+              "DocumentMoniker": "C:\\Users\\docon\\source\\repos\\KiemTra\\KiemTra\\Models\\DangKy.cs",
+              "RelativeDocumentMoniker": "KiemTra\\Models\\DangKy.cs",
+              "ToolTip": "C:\\Users\\docon\\source\\repos\\KiemTra\\KiemTra\\Models\\DangKy.cs",
+              "RelativeToolTip": "KiemTra\\Models\\DangKy.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAqwBkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-20T15:35:03.998Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "HocPhan.cs",
+              "DocumentMoniker": "C:\\Users\\docon\\source\\repos\\KiemTra\\KiemTra\\Models\\HocPhan.cs",
+              "RelativeDocumentMoniker": "KiemTra\\Models\\HocPhan.cs",
+              "ToolTip": "C:\\Users\\docon\\source\\repos\\KiemTra\\KiemTra\\Models\\HocPhan.cs",
+              "RelativeToolTip": "KiemTra\\Models\\HocPhan.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAuwB4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-20T15:34:46.047Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "SinhVien.cs",
+              "DocumentMoniker": "C:\\Users\\docon\\source\\repos\\KiemTra\\KiemTra\\Models\\SinhVien.cs",
+              "RelativeDocumentMoniker": "KiemTra\\Models\\SinhVien.cs",
+              "ToolTip": "C:\\Users\\docon\\source\\repos\\KiemTra\\KiemTra\\Models\\SinhVien.cs",
+              "RelativeToolTip": "KiemTra\\Models\\SinhVien.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAqwC4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-20T15:34:10.628Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\docon\\source\\repos\\KiemTra\\KiemTra\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "KiemTra\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\docon\\source\\repos\\KiemTra\\KiemTra\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "KiemTra\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAQwCAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-20T15:33:54.055Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "NganhHoc.cs",
+              "DocumentMoniker": "C:\\Users\\docon\\source\\repos\\KiemTra\\KiemTra\\Models\\NganhHoc.cs",
+              "RelativeDocumentMoniker": "KiemTra\\Models\\NganhHoc.cs",
+              "ToolTip": "C:\\Users\\docon\\source\\repos\\KiemTra\\KiemTra\\Models\\NganhHoc.cs",
+              "RelativeToolTip": "KiemTra\\Models\\NganhHoc.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAqwBEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-20T15:33:30.575Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\docon\\source\\repos\\KiemTra\\KiemTra\\appsettings.json",
+              "RelativeDocumentMoniker": "KiemTra\\appsettings.json",
+              "ToolTip": "C:\\Users\\docon\\source\\repos\\KiemTra\\KiemTra\\appsettings.json",
+              "RelativeToolTip": "KiemTra\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-12-20T15:31:36.881Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

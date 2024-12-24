@@ -1,0 +1,69 @@
+﻿@model KiemTra.Models.DangKy
+
+@{
+    ViewData["Title"] = "Thông tin đăng ký";
+}
+
+<h2>Đăng Kí Học Phần</h2>
+
+<div class="table-responsive mb-4">
+    <table class="table table-bordered">
+        <thead>
+            <tr>
+                <th>MaHP</th>
+                <th>Tên Học Phần</th>
+                <th>Số Tín Chỉ</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var chiTiet in Model.ChiTietDangKys)
+            {
+                <tr>
+                    <td>@chiTiet.HocPhan.MaHP</td>
+                    <td>@chiTiet.HocPhan.TenHP</td>
+                    <td>@chiTiet.HocPhan.SoTinChi</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+
+<div class="text-end mb-4">
+    <p class="text-danger">Số học phần: @Model.ChiTietDangKys.Count()</p>
+    <p class="text-danger">Tổng số tín chỉ: @Model.ChiTietDangKys.Sum(c => c.HocPhan.SoTinChi)</p>
+</div>
+
+<div class="card">
+    <div class="card-body">
+        <h3 class="text-center mb-4">Thông tin Đăng kí</h3>
+        <div class="row mb-3">
+            <div class="col-md-3">Mã số sinh viên:</div>
+            <div class="col-md-9">@Model.SinhVien.MaSV</div>
+        </div>
+        <div class="row mb-3">
+            <div class="col-md-3">Họ tên sinh viên:</div>
+            <div class="col-md-9">@Model.SinhVien.HoTen</div>
+        </div>
+        <div class="row mb-3">
+            <div class="col-md-3">Ngày sinh:</div>
+            <div class="col-md-9">@Model.SinhVien.NgaySinh.ToString("dd/MM/yyyy")</div>
+        </div>
+        <div class="row mb-3">
+            <div class="col-md-3">Ngành học:</div>
+            <div class="col-md-9">@Model.SinhVien.NganhHoc.TenNganh</div>
+        </div>
+        <div class="row mb-3">
+            <div class="col-md-3">Ngày đăng ký:</div>
+            <div class="col-md-9">@Model.NgayDK.ToString("dd/MM/yyyy")</div>
+        </div>
+
+        <div class="text-center">
+            <form asp-action="XacNhanDangKy" method="post" class="d-inline">
+                @Html.AntiForgeryToken()
+                <input type="hidden" name="id" value="@Model.MaDK" />
+                <button type="submit" class="btn btn-success">Xác nhận</button>
+            </form>
+            <a href="javascript:history.back()" class="btn btn-secondary">Trở về giỏ hàng</a>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,41 @@
+﻿@model KiemTra.Models.HocPhan
+
+@{
+    ViewData["Title"] = "Xóa học phần";
+}
+
+<h1 class="mb-4">@ViewData["Title"]</h1>
+
+<div class="card shadow">
+    <div class="card-body">
+        <h3 class="card-title text-danger mb-4">Bạn có chắc chắn muốn xóa học phần này?</h3>
+        <dl class="row">
+            <dt class="col-sm-3">@Html.DisplayNameFor(model => model.MaHP)</dt>
+            <dd class="col-sm-9">@Html.DisplayFor(model => model.MaHP)</dd>
+
+            <dt class="col-sm-3">@Html.DisplayNameFor(model => model.TenHP)</dt>
+            <dd class="col-sm-9">@Html.DisplayFor(model => model.TenHP)</dd>
+
+            <dt class="col-sm-3">@Html.DisplayNameFor(model => model.SoTinChi)</dt>
+            <dd class="col-sm-9">@Html.DisplayFor(model => model.SoTinChi)</dd>
+
+            <dt class="col-sm-3">@Html.DisplayNameFor(model => model.SoLuongDuKien)</dt>
+            <dd class="col-sm-9">@Html.DisplayFor(model => model.SoLuongDuKien)</dd>
+
+            <dt class="col-sm-3">@Html.DisplayNameFor(model => model.SoLuongDaDangKy)</dt>
+            <dd class="col-sm-9">@Html.DisplayFor(model => model.SoLuongDaDangKy)</dd>
+        </dl>
+    </div>
+    <div class="card-footer">
+        <form asp-action="Delete">
+            <input type="hidden" asp-for="MaHP" />
+            <button type="submit" class="btn btn-danger">
+                <i class="fas fa-trash-alt me-1"></i>Xóa
+            </button>
+            <a asp-action="Index" class="btn btn-secondary">
+                <i class="fas fa-arrow-left me-1"></i>Quay lại danh sách
+            </a>
+        </form>
+    </div>
+</div>
+

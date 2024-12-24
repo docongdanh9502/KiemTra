@@ -1,0 +1,45 @@
+﻿@model KiemTra.Models.HocPhan
+
+@{
+    ViewData["Title"] = "Chi tiết học phần";
+}
+
+<div class="container mt-4">
+    <div class="row mb-4">
+        <div class="col">
+            <h1 class="display-4 text-primary">@ViewData["Title"]</h1>
+            <p class="lead">Thông tin chi tiết của học phần.</p>
+        </div>
+    </div>
+
+    <div class="card shadow-sm border-0 rounded-lg">
+        <div class="card-body">
+            <dl class="row">
+                <dt class="col-sm-3">Mã học phần</dt>
+                <dd class="col-sm-9">@Model.MaHP</dd>
+
+                <dt class="col-sm-3">Tên học phần</dt>
+                <dd class="col-sm-9">@Model.TenHP</dd>
+
+                <dt class="col-sm-3">Số tín chỉ</dt>
+                <dd class="col-sm-9">@Model.SoTinChi</dd>
+
+                <dt class="col-sm-3">Sĩ số tối đa</dt>
+                <dd class="col-sm-9">@Model.SoLuongDuKien</dd>
+
+                <dt class="col-sm-3">Đã đăng ký</dt>
+                <dd class="col-sm-9">@Model.SoLuongDaDangKy</dd>
+            </dl>
+        </div>
+    </div>
+
+    <div class="mt-4">
+        <a asp-action="Edit" asp-route-id="@Model.MaHP" class="btn btn-primary me-2">
+            <i class="bi bi-pencil-square me-2"></i>Chỉnh sửa
+        </a>
+        <a asp-action="Index" class="btn btn-secondary">
+            <i class="bi bi-arrow-left me-2"></i>Quay lại danh sách
+        </a>
+    </div>
+</div>
+

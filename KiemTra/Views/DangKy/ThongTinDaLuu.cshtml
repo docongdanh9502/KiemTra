@@ -1,0 +1,68 @@
+﻿@model KiemTra.Models.DangKy
+
+@{
+    ViewData["Title"] = "Thông tin học phần đã lưu";
+}
+
+<div class="container mt-4">
+    <h2>Thông Tin Học Phần Đã Lưu</h2>
+
+    <div class="alert alert-success mt-4">
+        <i class="fas fa-check-circle"></i> Đăng ký học phần thành công!
+    </div>
+
+    <div class="card mt-4">
+        <div class="card-body">
+            <h4 class="card-title">Kết quả đăng ký học phần:</h4>
+            <div class="table-responsive mt-3">
+                <table class="table table-bordered">
+                    <thead>
+                        <tr>
+                            <th>MaDK</th>
+                            <th>NgayDK</th>
+                            <th>MaSV</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>@Model.MaDK</td>
+                            <td>@Model.NgayDK.ToString("yyyy-MM-dd")</td>
+                            <td>@Model.MaSV</td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <table class="table table-bordered mt-3">
+                    <thead>
+                        <tr>
+                            <th>STT</th>
+                            <th>MaDK</th>
+                            <th>MaHP</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @{
+                            var stt = 1;
+                        }
+                        @foreach (var chiTiet in Model.ChiTietDangKys)
+                        {
+                            <tr>
+                                <td>@stt</td>
+                                <td>@chiTiet.MaDK</td>
+                                <td>@chiTiet.MaHP</td>
+                            </tr>
+                            stt++;
+                        }
+                    </tbody>
+                </table>
+            </div>
+
+            <div class="text-center mt-4">
+                <a asp-controller="Home" asp-action="Index" class="btn btn-primary">
+                    <i class="fas fa-home me-2"></i>Về trang chủ
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+

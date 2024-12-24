@@ -1,0 +1,66 @@
+﻿@model KiemTra.Models.SinhVien
+
+@{
+    ViewData["Title"] = "Xóa sinh viên";
+}
+
+<div class="container mt-4">
+    <div class="card shadow">
+        <div class="card-header bg-danger text-white">
+            <h3 class="card-title mb-0">XÓA THÔNG TIN</h3>
+        </div>
+        <div class="card-body">
+            <div class="row">
+                <div class="col-md-4 text-center mb-4">
+                    @if (!string.IsNullOrEmpty(Model.Hinh))
+                    {
+                        <img src="~/images/@Model.Hinh" alt="@Model.HoTen"
+                             class="img-fluid rounded"
+                             style="max-width: 300px; max-height: 300px; object-fit: cover;" />
+                    }
+                    else
+                    {
+                        <div class="bg-light p-4 rounded">
+                            <i class="fas fa-user fa-6x text-secondary"></i>
+                        </div>
+                    }
+                </div>
+                <div class="col-md-8">
+                    <dl class="row">
+                        <dt class="col-sm-3">Mã sinh viên:</dt>
+                        <dd class="col-sm-9">@Model.MaSV</dd>
+
+                        <dt class="col-sm-3">Họ tên:</dt>
+                        <dd class="col-sm-9">@Model.HoTen</dd>
+
+                        <dt class="col-sm-3">Giới tính:</dt>
+                        <dd class="col-sm-9">@(Model.GioiTinh ? "Nam" : "Nữ")</dd>
+
+                        <dt class="col-sm-3">Ngày sinh:</dt>
+                        <dd class="col-sm-9">@Model.NgaySinh.ToString("dd/MM/yyyy")</dd>
+
+                        <dt class="col-sm-3">Ngành học:</dt>
+                        <dd class="col-sm-9">@Model.NganhHoc?.TenNganh</dd>
+                    </dl>
+                </div>
+            </div>
+
+            <div class="alert alert-warning mt-4">
+                <i class="fas fa-exclamation-triangle me-2"></i>
+                Bạn có chắc chắn muốn xóa sinh viên này?
+            </div>
+
+            <div class="text-center mt-4">
+                <form asp-action="Delete" method="post">
+                    <input type="hidden" asp-for="MaSV" />
+                    <button type="submit" class="btn btn-danger me-2">
+                        <i class="fas fa-trash-alt me-1"></i>Xác nhận xóa
+                    </button>
+                    <a asp-action="Index" class="btn btn-secondary">
+                        <i class="fas fa-arrow-left me-1"></i>Quay lại danh sách
+                    </a>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>

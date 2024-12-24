@@ -1,0 +1,53 @@
+﻿@model KiemTra.Models.DangKy
+
+@{
+    ViewData["Title"] = "Chi tiết đăng ký";
+}
+
+<h1 class="mb-4">@ViewData["Title"]</h1>
+
+<div class="card shadow">
+    <div class="card-body">
+        <dl class="row">
+            <dt class="col-sm-3">@Html.DisplayNameFor(model => model.MaDK)</dt>
+            <dd class="col-sm-9">@Html.DisplayFor(model => model.MaDK)</dd>
+
+            <dt class="col-sm-3">@Html.DisplayNameFor(model => model.MaSV)</dt>
+            <dd class="col-sm-9">@Html.DisplayFor(model => model.MaSV)</dd>
+
+            <dt class="col-sm-3">@Html.DisplayNameFor(model => model.NgayDK)</dt>
+            <dd class="col-sm-9">@Html.DisplayFor(model => model.NgayDK)</dd>
+        </dl>
+
+        <h4 class="mt-4 mb-3">Danh sách học phần đã đăng ký</h4>
+        <div class="table-responsive">
+            <table class="table table-hover">
+                <thead class="table-light">
+                    <tr>
+                        <th>Mã HP</th>
+                        <th>Tên học phần</th>
+                        <th>Số tín chỉ</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var chiTiet in Model.ChiTietDangKys)
+                    {
+                        <tr>
+                            <td>@chiTiet.HocPhan.MaHP</td>
+                            <td>@chiTiet.HocPhan.TenHP</td>
+                            <td>@chiTiet.HocPhan.SoTinChi</td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <div class="card-footer">
+        <a asp-action="Edit" asp-route-id="@Model.MaDK" class="btn btn-warning">
+            <i class="fas fa-edit me-1"></i>Sửa
+        </a>
+        <a asp-action="Index" class="btn btn-secondary">
+            <i class="fas fa-arrow-left me-1"></i>Quay lại danh sách
+        </a>
+    </div>
+</div>
